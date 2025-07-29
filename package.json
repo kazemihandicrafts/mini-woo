@@ -14,7 +14,7 @@
   "react-dom": "latest",
   "telegraf": "^4.14.0",
   "encoding": "^0.1.13"
-}
+},
   "devDependencies": {
     "@types/telegram-web-app": "^6.9.1",
     "@types/node": "latest",

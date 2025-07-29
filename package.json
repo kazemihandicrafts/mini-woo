@@ -1,27 +1,11 @@
 {
-  "name": "mini-woo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "kazemi-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "node index.js"
   },
- "dependencies": {
-  "next": "latest",
-  "react": "latest",
-  "react-dom": "latest",
-  "telegraf": "^4.14.0",
-  "encoding": "^0.1.13"
-},
-  "devDependencies": {
-    "@types/telegram-web-app": "^6.9.1",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "typescript": "latest"
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
   }
 }
